@@ -1,12 +1,12 @@
-// React ve useState fonksiyonunu içeri al
-import React, { useState } from 'react';
-// Gauge bileşenini içeri al
-import Gauge from './components/gauge/gauge';
+import React from 'react';
+import GaugeContainer from './components/gauge/gaugecontainer';
 
 function App() {
-  // value adlı state değişkenini oluştur ve başlangıç değerini 0 olarak ayarla
- <Gauge />
-
+  return (
+    <div className="App">
+      <GaugeContainer />
+    </div>
+  );
 }
 
 export default App;
